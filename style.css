@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #007bff;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* Estilo para a área de status e resultado */
+#status {
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    border-left: 5px solid; /* Cor será definida pelo JavaScript */
+}
+
+/* Estilização da área de exibição dos dados JSON */
+#resultado {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+/* Estiliza o JSON pré-formatado */
+#resultado pre {
+    white-space: pre-wrap; /* Quebra de linha para o JSON */
+    word-wrap: break-word;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    max-height: 400px; /* Limita a altura para não poluir a tela */
+    overflow-y: auto; /* Adiciona barra de rolagem se necessário */
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

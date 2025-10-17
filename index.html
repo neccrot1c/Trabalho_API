@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Básico com Fetch API</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <h1>Operações CRUD com Fetch API</h1>
+    <p>API utilizada: https://jsonplaceholder.typicode.com/posts</p>
+
+    <div id="status"></div>
+    <div id="resultado">Aguardando operação...</div>
+
+    <hr>
+
+    <h2>1. Obter Dados (GET)</h2>
+    <button onclick="Obter_dados()">Buscar 5 Primeiros Posts</button>
+
+    <hr>
+
+    <h2>2. Salvar Dados (POST)</h2>
+    <button onclick="Salvar_dados()">Criar Novo Post (ID de teste: 101)</button>
+
+    <hr>
+
+    <h2>3. Atualizar Dados (PUT)</h2>
+    <button onclick="Atualizar_dados()">Atualizar Post de ID 1</button>
+
+    <hr>
+
+    <h2>4. Excluir Dados (DELETE)</h2>
+    <button onclick="Excluir_dados()">Excluir Post de ID 1</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
